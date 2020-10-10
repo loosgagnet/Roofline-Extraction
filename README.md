@@ -10,17 +10,20 @@ building reconstruction; deep learning; convolutional neural networks; building 
 
 ## Dataset: 
   
- -- It includes three classes of rooflines such as eaves (red), ridges (green) and hips (blue) (48000 training instances).
+ -- It consists of cropped images, nDSMs, and roof elements including three classes of eaves (red), ridges (green) and hips (blue) (1670 training instances with the size of 224x224 and before data augmentation).
  
- -- Image samples of dataset:
+ -- The format of dataset is a MATLAB structure (imdb.mat file) including three fields of images, depths, and elements.
+ 
+ -- Image samples of dataset (before cropping):
  
  ![s1](https://user-images.githubusercontent.com/16438357/63887866-0082b700-c9de-11e9-9244-996bb052ce2d.png)
  
  ![s2](https://user-images.githubusercontent.com/16438357/63887889-0c6e7900-c9de-11e9-9cdc-70b7d1fd8b0d.png)
  
  
- ## Download link:
- ...
+ ## Download link (~455 MB):
+
+ https://drive.google.com/file/d/1eg4d6quqKbrtj1hKkuhzV4F4EChZnqKt/view?usp=sharing
  
  ## Cite:
 If you use this dataset in your research, please make sure to cite the paper:
